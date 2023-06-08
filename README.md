@@ -1,10 +1,16 @@
 # Exchange-API
 
-## Retrieve markets and current prices.
+# Retrieve markets and current prices.
+
+## Resource description
 Level 2 Order Book data is available through the l2 channel. Each entry in bids and asks arrays is a price level, along with its price (px), quantity (qty) and number of orders (num) attributes.
 
+## Endpoints and methods
+
+## Request example
 https://api.blockchain.com/v3/exchange/l2/BTC-USD
 
+##_Curl_
 curl -X GET "https://api.blockchain.com/v3/exchange/l2/BTC-USD" -H  "accept: application/json"
 
 ## Response body
