@@ -21,6 +21,7 @@ through the 12 channel.
 ## Request example
 
 ##_Curl_
+
 curl -X GET "https://api.blockchain.com/v3/exchange/l2/BTC-USD" -H  "accept: application/json"
 
 ## Response body
@@ -464,3 +465,14 @@ curl -X GET "https://api.blockchain.com/v3/exchange/l2/BTC-USD" -H  "accept: app
   ]
 }
 ```
+
+#### Response definitions
+The following table describes each item in the response.
+
+| Response abbreviation | Response item | Description | Data type |
+| ------ | ------ | ------ | ------ |
+| px | Price | Amount of money expected, required, or given in payment for something. | Integer |
+| qty | Quantity | Amount or number of a material or abstract thing not usually estimated by spatial measurement. | Integer |
+| num | Number of orders | An order is counted on the day the consumer places the order. | Integer |
+
+ 
