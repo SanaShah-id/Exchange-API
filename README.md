@@ -2,6 +2,7 @@
 
 # Retrieve markets and current prices.
 
+
 ## Resource URL
 https://api.blockchain.com/v3/exchange/l2/BTC-USD
 
@@ -465,6 +466,7 @@ curl -X GET "https://api.blockchain.com/v3/exchange/l2/BTC-USD" -H  "accept: app
   ]
 }
 ```
+
 
 #### Response definitions
 The following table describes each item in the response.
